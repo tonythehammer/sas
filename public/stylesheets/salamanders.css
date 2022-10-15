@@ -5,7 +5,6 @@ html {
 }
 
 body {
-  border: 1px solid red;
   background-color: aquamarine;
   margin: auto;
   padding: 1rem;
@@ -18,5 +17,13 @@ h1 a {
 }
 
 table, th, td {
-  border: 1px solid;
+  border: 1px solid red;
+}
+
+th {
+  background-color: rgb(121, 121, 245);
+}
+
+td {
+  background-color: rgba(241, 121, 121, 0.979);
 }

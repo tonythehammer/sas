@@ -1,10 +1,9 @@
 <?php
-require_once('../../private/initialize.php'); 
 
-if (is_post_request()) {
-    $salamanderName = $_POST['salamanderName'];
-    echo "Salamander Name: $salamanderName<br>";
-} else {
-    redirect_to(url_for('/salamanders/new.php'));
-}
+require_once('../../private/initialize.php');
+include(SHARED_PATH . '/salamander-header.php'); 
+
+echo "<h1>Stub for Create Salamander</h1>";
+
+include(SHARED_PATH . '/salamander-footer.php'); 
 ?>
